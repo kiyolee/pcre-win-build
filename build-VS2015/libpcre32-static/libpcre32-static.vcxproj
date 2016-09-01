@@ -131,10 +131,7 @@
   <ItemGroup>
     <ClCompile Include="..\..\pcre32_byte_order.c" />
     <ClCompile Include="..\..\pcre32_chartables.c" />
-    <ClCompile Include="..\..\pcre32_compile.c">
-      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4703</DisableSpecificWarnings>
-      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4703</DisableSpecificWarnings>
-    </ClCompile>
+    <ClCompile Include="..\..\pcre32_compile.c" />
     <ClCompile Include="..\..\pcre32_config.c" />
     <ClCompile Include="..\..\pcre32_dfa_exec.c" />
     <ClCompile Include="..\..\pcre32_exec.c" />

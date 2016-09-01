@@ -4449,6 +4449,13 @@ Returns:            TRUE on success
                     FALSE, with *errorcodeptr set non-zero on error
 */
 
+#if defined(_MSC_VER) && _MSC_VER >= 1900
+#pragma warning(push)
+#pragma warning(disable: 4703) // potentially uninitialized local pointer variable 'slot' used.
+// The variable is initialized properly but the compiler is still giving the warning.
+// Suspected to be a bug of the compiler.
+#endif
+
 static BOOL
 compile_branch(int *optionsptr, pcre_uchar **codeptr,
   const pcre_uchar **ptrptr, int *errorcodeptr,
@@ -8222,6 +8229,9 @@ FAILED:
 return FALSE;
 }
 
+#if defined(_MSC_VER) && _MSC_VER >= 1900
+#pragma warning(pop) // Reset 4703.
+#endif
 
 
 /*************************************************
