@@ -1168,7 +1168,7 @@ static int regression_tests(void)
 	int ovector8_1[32];
 	int ovector8_2[32];
 	int return_value8[2];
-	unsigned char *mark8_1, *mark8_2;
+	unsigned char *mark8_1 = NULL, *mark8_2 = NULL;
 #endif
 #ifdef SUPPORT_PCRE16
 	pcre16 *re16;
@@ -1177,7 +1177,7 @@ static int regression_tests(void)
 	int ovector16_1[32];
 	int ovector16_2[32];
 	int return_value16[2];
-	PCRE_UCHAR16 *mark16_1, *mark16_2;
+        PCRE_UCHAR16 *mark16_1 = NULL, *mark16_2 = NULL;
 	int length16;
 #endif
 #ifdef SUPPORT_PCRE32
@@ -1187,7 +1187,7 @@ static int regression_tests(void)
 	int ovector32_1[32];
 	int ovector32_2[32];
 	int return_value32[2];
-	PCRE_UCHAR32 *mark32_1, *mark32_2;
+	PCRE_UCHAR32 *mark32_1 = NULL, *mark32_2 = NULL;
 	int length32;
 #endif
 
