@@ -15,7 +15,11 @@
 /* #undef HAVE_BCOPY */
 #define HAVE_MEMMOVE 1
 #define HAVE_STRERROR 1
+#if !defined(_MSC_VER) || _MSC_VER >= 1800
 #define HAVE_STRTOLL 1
+#else
+/* #undef HAVE_STRTOLL */
+#endif
 /* #undef HAVE_STRTOQ */
 #define HAVE__STRTOI64 1
 
