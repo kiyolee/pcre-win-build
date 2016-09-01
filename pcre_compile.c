@@ -4449,7 +4449,7 @@ Returns:            TRUE on success
                     FALSE, with *errorcodeptr set non-zero on error
 */
 
-#if defined(_MSC_VER) && _MSC_VER >= 1900
+#if defined(_MSC_VER) && _MSC_VER >= 1800
 #pragma warning(push)
 #pragma warning(disable: 4703) // potentially uninitialized local pointer variable 'slot' used.
 // The variable is initialized properly but the compiler is still giving the warning.
