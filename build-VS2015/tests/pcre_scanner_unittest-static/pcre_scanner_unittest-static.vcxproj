@@ -71,7 +71,7 @@
       <SDLCheck>true</SDLCheck>
       <StringPooling>true</StringPooling>
       <PreprocessorDefinitions>WIN32;_WINDOWS;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\..\win32;..\..\..</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\win32;..\..\..\include;..\..\..</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -85,7 +85,7 @@
       <SDLCheck>true</SDLCheck>
       <StringPooling>true</StringPooling>
       <PreprocessorDefinitions>WIN32;_WINDOWS;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\..\win32;..\..\..</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\win32;..\..\..\include;..\..\..</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -101,7 +101,7 @@
       <SDLCheck>true</SDLCheck>
       <StringPooling>true</StringPooling>
       <PreprocessorDefinitions>WIN32;_WINDOWS;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\..\win32;..\..\..</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\win32;..\..\..\include;..\..\..</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -119,7 +119,7 @@
       <SDLCheck>true</SDLCheck>
       <StringPooling>true</StringPooling>
       <PreprocessorDefinitions>WIN32;_WINDOWS;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\..\win32;..\..\..</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\win32;..\..\..\include;..\..\..</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
