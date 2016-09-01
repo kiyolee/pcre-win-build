@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{DDFDFF9B-08DB-4806-B66B-9A488E9891A7}</ProjectGuid>
-    <RootNamespace>pcre32-static</RootNamespace>
+    <ProjectGuid>{DDF26693-559C-49A6-861C-87A14B9D2A7B}</ProjectGuid>
+    <RootNamespace>libpcreposix-static</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -125,32 +125,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\win32\config.h" />
-    <ClInclude Include="..\..\win32\pcre.h" />
+    <ClInclude Include="..\..\pcreposix.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\pcre32_byte_order.c" />
-    <ClCompile Include="..\..\pcre32_chartables.c" />
-    <ClCompile Include="..\..\pcre32_compile.c" />
-    <ClCompile Include="..\..\pcre32_config.c" />
-    <ClCompile Include="..\..\pcre32_dfa_exec.c" />
-    <ClCompile Include="..\..\pcre32_exec.c" />
-    <ClCompile Include="..\..\pcre32_fullinfo.c" />
-    <ClCompile Include="..\..\pcre32_get.c" />
-    <ClCompile Include="..\..\pcre32_globals.c" />
-    <ClCompile Include="..\..\pcre32_jit_compile.c" />
-    <ClCompile Include="..\..\pcre32_maketables.c" />
-    <ClCompile Include="..\..\pcre32_newline.c" />
-    <ClCompile Include="..\..\pcre32_ord2utf32.c" />
-    <ClCompile Include="..\..\pcre32_refcount.c" />
-    <ClCompile Include="..\..\pcre32_string_utils.c" />
-    <ClCompile Include="..\..\pcre32_study.c" />
-    <ClCompile Include="..\..\pcre32_tables.c" />
-    <ClCompile Include="..\..\pcre32_ucd.c" />
-    <ClCompile Include="..\..\pcre32_utf32_utils.c" />
-    <ClCompile Include="..\..\pcre32_valid_utf32.c" />
-    <ClCompile Include="..\..\pcre32_version.c" />
-    <ClCompile Include="..\..\pcre32_xclass.c" />
+    <ClCompile Include="..\..\pcreposix.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

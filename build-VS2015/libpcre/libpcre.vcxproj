@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3C429F07-54B0-4A7A-86E3-0A29036A28DC}</ProjectGuid>
-    <RootNamespace>pcrecpp</RootNamespace>
+    <ProjectGuid>{DA8CB038-FD70-44B5-8ADA-5E32CA9ECACE}</ProjectGuid>
+    <RootNamespace>libpcre</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -125,15 +125,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\pcrecpp.cc" />
-    <ClCompile Include="..\..\pcre_scanner.cc" />
-    <ClCompile Include="..\..\pcre_stringpiece.cc" />
+    <ClCompile Include="..\..\pcre_byte_order.c" />
+    <ClCompile Include="..\..\pcre_compile.c" />
+    <ClCompile Include="..\..\pcre_config.c" />
+    <ClCompile Include="..\..\pcre_dfa_exec.c" />
+    <ClCompile Include="..\..\pcre_exec.c" />
+    <ClCompile Include="..\..\pcre_fullinfo.c" />
+    <ClCompile Include="..\..\pcre_get.c" />
+    <ClCompile Include="..\..\pcre_globals.c" />
+    <ClCompile Include="..\..\pcre_jit_compile.c" />
+    <ClCompile Include="..\..\pcre_maketables.c" />
+    <ClCompile Include="..\..\pcre_newline.c" />
+    <ClCompile Include="..\..\pcre_ord2utf8.c" />
+    <ClCompile Include="..\..\pcre_refcount.c" />
+    <ClCompile Include="..\..\pcre_string_utils.c" />
+    <ClCompile Include="..\..\pcre_study.c" />
+    <ClCompile Include="..\..\pcre_tables.c" />
+    <ClCompile Include="..\..\pcre_ucd.c" />
+    <ClCompile Include="..\..\pcre_valid_utf8.c" />
+    <ClCompile Include="..\..\pcre_version.c" />
+    <ClCompile Include="..\..\pcre_xclass.c" />
+    <ClCompile Include="..\..\win32\pcre_chartables.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\pcrecpp.h" />
-    <ClInclude Include="..\..\pcre_scanner.h" />
-    <ClInclude Include="..\..\win32\pcrecpparg.h" />
-    <ClInclude Include="..\..\win32\pcre_stringpiece.h" />
+    <ClInclude Include="..\..\win32\config.h" />
+    <ClInclude Include="..\..\win32\pcre.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

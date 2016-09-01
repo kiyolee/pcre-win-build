@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0CD436F0-29A0-441A-B448-1FDA9825EBE6}</ProjectGuid>
-    <RootNamespace>pcrecpp-static</RootNamespace>
+    <RootNamespace>libpcrecpp-static</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

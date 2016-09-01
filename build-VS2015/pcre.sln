@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre", "pcre\pcre.vcxproj", "{DA8CB038-FD70-44B5-8ADA-5E32CA9ECACE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcre", "libpcre\libpcre.vcxproj", "{DA8CB038-FD70-44B5-8ADA-5E32CA9ECACE}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre_jit_test", "tests\pcre_jit_test\pcre_jit_test.vcxproj", "{056C59D4-CE8D-459D-B160-4986718B2FC7}"
 EndProject
@@ -11,33 +11,33 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre_scanner_unittest", "te
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre_stringpiece_unittest", "tests\pcre_stringpiece_unittest\pcre_stringpiece_unittest.vcxproj", "{3A5A189F-11DA-4C93-9861-D47AE5D892FC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre16", "pcre16\pcre16.vcxproj", "{94D92D6A-221A-486C-85CC-9D0BFFF1C20E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcre16", "libpcre16\libpcre16.vcxproj", "{94D92D6A-221A-486C-85CC-9D0BFFF1C20E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre32", "pcre32\pcre32.vcxproj", "{8DE7AFAB-08EE-436E-BE84-62EA1DE99E4C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcre32", "libpcre32\libpcre32.vcxproj", "{8DE7AFAB-08EE-436E-BE84-62EA1DE99E4C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcrecpp", "pcrecpp\pcrecpp.vcxproj", "{3C429F07-54B0-4A7A-86E3-0A29036A28DC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcrecpp", "libpcrecpp\libpcrecpp.vcxproj", "{3C429F07-54B0-4A7A-86E3-0A29036A28DC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcrecpp_unittest", "tests\pcrecpp_unittest\pcrecpp_unittest.vcxproj", "{1667E2B6-ECEA-4BCE-9824-4E33C4899B72}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcregrep", "pcregrep\pcregrep.vcxproj", "{80112543-88C9-4354-ADD1-B1A600D65217}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcreposix", "pcreposix\pcreposix.vcxproj", "{99DC6502-5AB1-4A52-9E5A-EA9E91EF86C7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcreposix", "libpcreposix\libpcreposix.vcxproj", "{99DC6502-5AB1-4A52-9E5A-EA9E91EF86C7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcretest", "tests\pcretest\pcretest.vcxproj", "{B72C080E-F1E3-4CD4-9107-4871BAFF6183}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C292CA0F-C580-488A-B7CD-8DF1A0D2BEB4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre-static", "pcre-static\pcre-static.vcxproj", "{5E70CAAF-437F-4EC1-87F4-D896276AB1E1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcre-static", "libpcre-static\libpcre-static.vcxproj", "{5E70CAAF-437F-4EC1-87F4-D896276AB1E1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre16-static", "pcre16-static\pcre16-static.vcxproj", "{A0964D8D-ED36-40CF-BEC8-E7D87457AA97}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcre16-static", "libpcre16-static\libpcre16-static.vcxproj", "{A0964D8D-ED36-40CF-BEC8-E7D87457AA97}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre32-static", "pcre32-static\pcre32-static.vcxproj", "{DDFDFF9B-08DB-4806-B66B-9A488E9891A7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcre32-static", "libpcre32-static\libpcre32-static.vcxproj", "{DDFDFF9B-08DB-4806-B66B-9A488E9891A7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcrecpp-static", "pcrecpp-static\pcrecpp-static.vcxproj", "{0CD436F0-29A0-441A-B448-1FDA9825EBE6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcrecpp-static", "libpcrecpp-static\libpcrecpp-static.vcxproj", "{0CD436F0-29A0-441A-B448-1FDA9825EBE6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcregrep-static", "pcregrep-static\pcregrep-static.vcxproj", "{98E90475-015E-4D21-BA6D-740ECFE28D54}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcreposix-static", "pcreposix-static\pcreposix-static.vcxproj", "{DDF26693-559C-49A6-861C-87A14B9D2A7B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcreposix-static", "libpcreposix-static\libpcreposix-static.vcxproj", "{DDF26693-559C-49A6-861C-87A14B9D2A7B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre_jit_test-static", "tests\pcre_jit_test-static\pcre_jit_test-static.vcxproj", "{5E117257-24E9-4EFA-9739-FE3A1BC81600}"
 EndProject
