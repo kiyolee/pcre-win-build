@@ -121,6 +121,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\pcreposix.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\pcreposix.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -143,6 +143,10 @@
     <ClCompile Include="..\..\pcre_xclass.c" />
     <ClCompile Include="..\..\win32\pcre_chartables.c" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\win32\config.h" />
+    <ClInclude Include="..\..\win32\pcre.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

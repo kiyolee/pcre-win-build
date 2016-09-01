@@ -121,6 +121,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\pcre16_printint.c" />
+    <ClCompile Include="..\..\..\pcre32_printint.c" />
+    <ClCompile Include="..\..\..\pcretest.c" />
+    <ClCompile Include="..\..\..\pcre_printint.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
