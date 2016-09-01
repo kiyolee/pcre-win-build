@@ -13,22 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\win32">
+    <Filter Include="Header Files\include">
       <UniqueIdentifier>{b75470d5-b0a3-43f8-894f-8461ce5519d1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\win32\pcre_stringpiece.h">
-      <Filter>Header Files\win32</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\win32\pcrecpparg.h">
-      <Filter>Header Files\win32</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\pcre_scanner.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\pcrecpp.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\pcre_stringpiece.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\pcrecpparg.h">
+      <Filter>Header Files\include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

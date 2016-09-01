@@ -19,13 +19,16 @@
     <Filter Include="Source Files\win32">
       <UniqueIdentifier>{c3388373-2a38-4fb8-8f41-299b9d217e2d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{9bd6c07a-4a25-4cea-866c-99a6ee317e3e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\win32\config.h">
       <Filter>Header Files\win32</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\win32\pcre.h">
-      <Filter>Header Files\win32</Filter>
+    <ClInclude Include="..\..\include\pcre.h">
+      <Filter>Header Files\include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

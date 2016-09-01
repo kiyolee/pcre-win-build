@@ -19,12 +19,18 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre_scanner_unittest", "te
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre_stringpiece_unittest", "tests\pcre_stringpiece_unittest\pcre_stringpiece_unittest.vcxproj", "{3A5A189F-11DA-4C93-9861-D47AE5D892FC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3C429F07-54B0-4A7A-86E3-0A29036A28DC} = {3C429F07-54B0-4A7A-86E3-0A29036A28DC}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcre16", "libpcre16\libpcre16.vcxproj", "{94D92D6A-221A-486C-85CC-9D0BFFF1C20E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcre32", "libpcre32\libpcre32.vcxproj", "{8DE7AFAB-08EE-436E-BE84-62EA1DE99E4C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcrecpp", "libpcrecpp\libpcrecpp.vcxproj", "{3C429F07-54B0-4A7A-86E3-0A29036A28DC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DA8CB038-FD70-44B5-8ADA-5E32CA9ECACE} = {DA8CB038-FD70-44B5-8ADA-5E32CA9ECACE}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcrecpp_unittest", "tests\pcrecpp_unittest\pcrecpp_unittest.vcxproj", "{1667E2B6-ECEA-4BCE-9824-4E33C4899B72}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -38,6 +44,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcregrep", "pcregrep\pcregr
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcreposix", "libpcreposix\libpcreposix.vcxproj", "{99DC6502-5AB1-4A52-9E5A-EA9E91EF86C7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DA8CB038-FD70-44B5-8ADA-5E32CA9ECACE} = {DA8CB038-FD70-44B5-8ADA-5E32CA9ECACE}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcretest", "tests\pcretest\pcretest.vcxproj", "{B72C080E-F1E3-4CD4-9107-4871BAFF6183}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -56,6 +65,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcre32-static", "libpcre32-static\libpcre32-static.vcxproj", "{DDFDFF9B-08DB-4806-B66B-9A488E9891A7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcrecpp-static", "libpcrecpp-static\libpcrecpp-static.vcxproj", "{0CD436F0-29A0-441A-B448-1FDA9825EBE6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5E70CAAF-437F-4EC1-87F4-D896276AB1E1} = {5E70CAAF-437F-4EC1-87F4-D896276AB1E1}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcregrep-static", "pcregrep-static\pcregrep-static.vcxproj", "{98E90475-015E-4D21-BA6D-740ECFE28D54}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -63,6 +75,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcregrep-static", "pcregrep
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcreposix-static", "libpcreposix-static\libpcreposix-static.vcxproj", "{DDF26693-559C-49A6-861C-87A14B9D2A7B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5E70CAAF-437F-4EC1-87F4-D896276AB1E1} = {5E70CAAF-437F-4EC1-87F4-D896276AB1E1}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre_jit_test-static", "tests\pcre_jit_test-static\pcre_jit_test-static.vcxproj", "{5E117257-24E9-4EFA-9739-FE3A1BC81600}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -78,6 +93,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre_scanner_unittest-stati
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre_stringpiece_unittest-static", "tests\pcre_stringpiece_unittest-static\pcre_stringpiece_unittest-static.vcxproj", "{9C6C2694-D1FE-42DC-A128-D21A1C3E7E77}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0CD436F0-29A0-441A-B448-1FDA9825EBE6} = {0CD436F0-29A0-441A-B448-1FDA9825EBE6}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcrecpp_unittest-static", "tests\pcrecpp_unittest-static\pcrecpp_unittest-static.vcxproj", "{5BAF05ED-2A4A-4F0D-BB7C-E7F2D006C7A2}"
 	ProjectSection(ProjectDependencies) = postProject

@@ -16,6 +16,9 @@
     <Filter Include="Header Files\win32">
       <UniqueIdentifier>{068c00a7-cf63-4290-b296-987c627d2a4c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{b5dc9e68-346a-4504-9659-a690a040ce29}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\pcre32_byte_order.c">
@@ -89,8 +92,8 @@
     <ClInclude Include="..\..\win32\config.h">
       <Filter>Header Files\win32</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\win32\pcre.h">
-      <Filter>Header Files\win32</Filter>
+    <ClInclude Include="..\..\include\pcre.h">
+      <Filter>Header Files\include</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
