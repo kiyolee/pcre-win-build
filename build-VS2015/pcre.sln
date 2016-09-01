@@ -34,7 +34,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcrecpp_unittest", "tests\p
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcregrep", "pcregrep\pcregrep.vcxproj", "{80112543-88C9-4354-ADD1-B1A600D65217}"
 	ProjectSection(ProjectDependencies) = postProject
-		{5E70CAAF-437F-4EC1-87F4-D896276AB1E1} = {5E70CAAF-437F-4EC1-87F4-D896276AB1E1}
+		{DA8CB038-FD70-44B5-8ADA-5E32CA9ECACE} = {DA8CB038-FD70-44B5-8ADA-5E32CA9ECACE}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcreposix", "libpcreposix\libpcreposix.vcxproj", "{99DC6502-5AB1-4A52-9E5A-EA9E91EF86C7}"
@@ -59,7 +59,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcrecpp-static", "libpcr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcregrep-static", "pcregrep-static\pcregrep-static.vcxproj", "{98E90475-015E-4D21-BA6D-740ECFE28D54}"
 	ProjectSection(ProjectDependencies) = postProject
-		{DA8CB038-FD70-44B5-8ADA-5E32CA9ECACE} = {DA8CB038-FD70-44B5-8ADA-5E32CA9ECACE}
+		{5E70CAAF-437F-4EC1-87F4-D896276AB1E1} = {5E70CAAF-437F-4EC1-87F4-D896276AB1E1}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcreposix-static", "libpcreposix-static\libpcreposix-static.vcxproj", "{DDF26693-559C-49A6-861C-87A14B9D2A7B}"
