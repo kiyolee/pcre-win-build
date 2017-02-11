@@ -139,6 +139,9 @@
     <ClInclude Include="..\..\pcrecpp.h" />
     <ClInclude Include="..\..\pcre_scanner.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\win32\libpcrecpp.rc" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
