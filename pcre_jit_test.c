@@ -687,6 +687,7 @@ static struct regression_test_case regression_test_cases[] = {
 	{ PCRE_FIRSTLINE | PCRE_NEWLINE_LF | PCRE_DOTALL, 0 | F_NOMATCH, "ab.", "ab" },
 	{ MUA | PCRE_FIRSTLINE, 1 | F_NOMATCH, "^[a-d0-9]", "\nxx\nd" },
 	{ PCRE_NEWLINE_ANY | PCRE_FIRSTLINE | PCRE_DOTALL, 0, "....a", "012\n0a" },
+	{ MUA | PCRE_FIRSTLINE, 0, "[aC]", "a" },
 
 	/* Recurse. */
 	{ MUA, 0, "(a)(?1)", "aa" },
@@ -1177,7 +1178,7 @@ static int regression_tests(void)
 	int ovector16_1[32];
 	int ovector16_2[32];
 	int return_value16[2];
-        PCRE_UCHAR16 *mark16_1 = NULL, *mark16_2 = NULL;
+	PCRE_UCHAR16 *mark16_1 = NULL, *mark16_2 = NULL;
 	int length16;
 #endif
 #ifdef SUPPORT_PCRE32
