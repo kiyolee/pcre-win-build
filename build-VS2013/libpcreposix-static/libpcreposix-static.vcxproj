@@ -129,7 +129,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\include\pcre.h" />
     <ClInclude Include="..\..\pcreposix.h" />
+    <ClInclude Include="..\..\pcre_internal.h" />
+    <ClInclude Include="..\..\ucp.h" />
+    <ClInclude Include="..\..\win32\config.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\pcreposix.c" />

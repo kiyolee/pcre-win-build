@@ -121,10 +121,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\pcreposix.c" />
+    <ClInclude Include="..\..\include\pcre.h" />
+    <ClInclude Include="..\..\pcreposix.h" />
+    <ClInclude Include="..\..\pcre_internal.h" />
+    <ClInclude Include="..\..\ucp.h" />
+    <ClInclude Include="..\..\win32\config.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\pcreposix.h" />
+    <ClCompile Include="..\..\pcreposix.c" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="..\..\win32\libpcreposix.rc" />

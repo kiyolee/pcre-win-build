@@ -117,6 +117,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\include\pcre.h" />
+    <ClInclude Include="..\..\pcre_internal.h" />
+    <ClInclude Include="..\..\ucp.h" />
+    <ClInclude Include="..\..\win32\config.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="..\..\pcre_byte_order.c" />
     <ClCompile Include="..\..\pcre_compile.c" />
     <ClCompile Include="..\..\pcre_config.c" />
@@ -138,10 +144,6 @@
     <ClCompile Include="..\..\pcre_version.c" />
     <ClCompile Include="..\..\pcre_xclass.c" />
     <ClCompile Include="..\..\win32\pcre_chartables.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\include\pcre.h" />
-    <ClInclude Include="..\..\win32\config.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="..\..\win32\libpcre.rc" />

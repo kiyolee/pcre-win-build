@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcre", "libpcre\libpcre.vcxproj", "{DA8CB038-FD70-44B5-8ADA-5E32CA9ECACE}"
 EndProject
@@ -310,5 +310,8 @@ Global
 		{9C6C2694-D1FE-42DC-A128-D21A1C3E7E77} = {C292CA0F-C580-488A-B7CD-8DF1A0D2BEB4}
 		{5BAF05ED-2A4A-4F0D-BB7C-E7F2D006C7A2} = {C292CA0F-C580-488A-B7CD-8DF1A0D2BEB4}
 		{E3D8AC30-C48D-4522-B892-958B2475DDB5} = {C292CA0F-C580-488A-B7CD-8DF1A0D2BEB4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98CC9977-5EFE-42A3-BACA-5BF289D05031}
 	EndGlobalSection
 EndGlobal

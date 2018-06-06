@@ -13,15 +13,29 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\win32">
-      <UniqueIdentifier>{a5fdcb0c-350c-4ad9-a007-5e7b48283302}</UniqueIdentifier>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{912e8a6a-4e88-4e2d-963a-ffc0f3c97aa3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\win32">
       <UniqueIdentifier>{84f9b944-5498-4930-903b-d704b2e39035}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\include">
-      <UniqueIdentifier>{912e8a6a-4e88-4e2d-963a-ffc0f3c97aa3}</UniqueIdentifier>
+    <Filter Include="Source Files\win32">
+      <UniqueIdentifier>{a5fdcb0c-350c-4ad9-a007-5e7b48283302}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\pcre.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pcre_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ucp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\win32\config.h">
+      <Filter>Header Files\win32</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\pcre_byte_order.c">
@@ -87,14 +101,6 @@
     <ClCompile Include="..\..\win32\pcre_chartables.c">
       <Filter>Source Files\win32</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\win32\config.h">
-      <Filter>Header Files\win32</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\include\pcre.h">
-      <Filter>Header Files\include</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="..\..\win32\libpcre.rc">

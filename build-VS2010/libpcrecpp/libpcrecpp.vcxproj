@@ -121,15 +121,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\pcrecpp.cc" />
-    <ClCompile Include="..\..\pcre_scanner.cc" />
-    <ClCompile Include="..\..\pcre_stringpiece.cc" />
-  </ItemGroup>
-  <ItemGroup>
+    <ClInclude Include="..\..\include\pcre.h" />
     <ClInclude Include="..\..\include\pcrecpparg.h" />
     <ClInclude Include="..\..\include\pcre_stringpiece.h" />
     <ClInclude Include="..\..\pcrecpp.h" />
+    <ClInclude Include="..\..\pcrecpp_internal.h" />
     <ClInclude Include="..\..\pcre_scanner.h" />
+    <ClInclude Include="..\..\win32\config.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\pcrecpp.cc" />
+    <ClCompile Include="..\..\pcre_scanner.cc" />
+    <ClCompile Include="..\..\pcre_stringpiece.cc" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="..\..\win32\libpcrecpp.rc" />

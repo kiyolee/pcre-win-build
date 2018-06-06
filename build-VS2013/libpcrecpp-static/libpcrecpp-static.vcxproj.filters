@@ -16,29 +16,41 @@
     <Filter Include="Header Files\include">
       <UniqueIdentifier>{b75470d5-b0a3-43f8-894f-8461ce5519d1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\win32">
+      <UniqueIdentifier>{e924d9b8-9eb2-4b86-990f-e69970129132}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\pcre_scanner.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\pcrecpp.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\include\pcre_stringpiece.h">
+    <ClInclude Include="..\..\include\pcre.h">
       <Filter>Header Files\include</Filter>
     </ClInclude>
     <ClInclude Include="..\..\include\pcrecpparg.h">
       <Filter>Header Files\include</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\include\pcre_stringpiece.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pcrecpp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pcrecpp_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\pcre_scanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\win32\config.h">
+      <Filter>Header Files\win32</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\pcrecpp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\pcre_scanner.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\pcre_stringpiece.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\pcrecpp.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

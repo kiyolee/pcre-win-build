@@ -121,6 +121,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\include\pcre.h" />
+    <ClInclude Include="..\..\..\pcre_internal.h" />
+    <ClInclude Include="..\..\..\ucp.h" />
+    <ClInclude Include="..\..\..\win32\config.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="..\..\..\pcre_jit_test.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
