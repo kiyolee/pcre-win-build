@@ -2,7 +2,7 @@
 
 pcre Windows build with Visual Studio.
 
-This version is pcre-8.40.
+This version is pcre-8.42.
 
 See win-build-info for general information about the
 win-build effort.
