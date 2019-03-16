@@ -26,7 +26,7 @@ BEGIN
       VALUE "FileDescription",	"libpcre for Windows\0"
       VALUE "FileVersion",	PCRE_VERSION_STR "\0"
       VALUE "InternalName",	"libpcre.dll\0"
-      VALUE "LegalCopyright",	"Copyright (c) 1997-2018 University of Cambridge.\0"
+      VALUE "LegalCopyright",	"Copyright (c) 1997-2019 University of Cambridge.\0"
       VALUE "OriginalFilename",	"libpcre.dll\0"
       VALUE "ProductName",	"PCRE\0"
       VALUE "ProductVersion",	PCRE_VERSION_STR "\0"
