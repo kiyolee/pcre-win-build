@@ -76,6 +76,7 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>$(OutDir)libpcre-static.lib;$(OutDir)libpcre16-static.lib;$(OutDir)libpcre32-static.lib;$(OutDir)libpcreposix-static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <StackReserveSize>40000000</StackReserveSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -90,6 +91,7 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>$(OutDir)libpcre-static.lib;$(OutDir)libpcre16-static.lib;$(OutDir)libpcre32-static.lib;$(OutDir)libpcreposix-static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <StackReserveSize>40000000</StackReserveSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -108,6 +110,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>$(OutDir)libpcre-static.lib;$(OutDir)libpcre16-static.lib;$(OutDir)libpcre32-static.lib;$(OutDir)libpcreposix-static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <StackReserveSize>10000000</StackReserveSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -126,6 +129,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>$(OutDir)libpcre-static.lib;$(OutDir)libpcre16-static.lib;$(OutDir)libpcre32-static.lib;$(OutDir)libpcreposix-static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <StackReserveSize>10000000</StackReserveSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
