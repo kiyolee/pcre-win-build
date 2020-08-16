@@ -607,7 +607,7 @@ static sljit_s32 emit_op_imm(struct sljit_compiler *compiler, sljit_s32 flags, s
 			   Although some clever things could be done here, "NOT IMM" does not worth the efforts. */
 			break;
 		case SLJIT_ADD:
-			nimm = -imm;
+			nimm = -(sljit_sw)imm;
 			if (IS_2_LO_REGS(reg, dst)) {
 				if (imm <= 0x7)
 					return push_inst16(compiler, ADDSI3 | IMM3(imm) | RD3(dst) | RN3(reg));
@@ -629,7 +629,7 @@ static sljit_s32 emit_op_imm(struct sljit_compiler *compiler, sljit_s32 flags, s
 			nimm = get_imm(imm);
 			if (nimm != INVALID_IMM)
 				return push_inst32(compiler, ADD_WI | (flags & SET_FLAGS) | RD4(dst) | RN4(reg) | nimm);
-			nimm = get_imm(-imm);
+			nimm = get_imm(-(sljit_sw)imm);
 			if (nimm != INVALID_IMM)
 				return push_inst32(compiler, SUB_WI | (flags & SET_FLAGS) | RD4(dst) | RN4(reg) | nimm);
 			break;
@@ -654,11 +654,11 @@ static sljit_s32 emit_op_imm(struct sljit_compiler *compiler, sljit_s32 flags, s
 				nimm = get_imm(imm);
 				if (nimm != INVALID_IMM)
 					return push_inst32(compiler, CMPI_W | RN4(reg) | nimm);
-				nimm = get_imm(-imm);
+				nimm = get_imm(-(sljit_sw)imm);
 				if (nimm != INVALID_IMM)
 					return push_inst32(compiler, CMNI_W | RN4(reg) | nimm);
 			}
-			nimm = -imm;
+			nimm = -(sljit_sw)imm;
 			if (IS_2_LO_REGS(reg, dst)) {
 				if (imm <= 0x7)
 					return push_inst16(compiler, SUBSI3 | IMM3(imm) | RD3(dst) | RN3(reg));
@@ -680,7 +680,7 @@ static sljit_s32 emit_op_imm(struct sljit_compiler *compiler, sljit_s32 flags, s
 			nimm = get_imm(imm);
 			if (nimm != INVALID_IMM)
 				return push_inst32(compiler, SUB_WI | (flags & SET_FLAGS) | RD4(dst) | RN4(reg) | nimm);
-			nimm = get_imm(-imm);
+			nimm = get_imm(-(sljit_sw)imm);
 			if (nimm != INVALID_IMM)
 				return push_inst32(compiler, ADD_WI | (flags & SET_FLAGS) | RD4(dst) | RN4(reg) | nimm);
 			break;
