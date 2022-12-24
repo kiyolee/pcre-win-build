@@ -95,6 +95,9 @@
   <ItemGroup>
     <ClCompile Include="..\..\pcregrep.c" />
   </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\win32\pcregrep.rc" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
